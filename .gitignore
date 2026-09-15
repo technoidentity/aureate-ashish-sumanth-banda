@@ -1,4 +1,5 @@
 
 # Rust build output
 **/target/
-/rust-learning/hello_world/main
+/rust-learning/Chapter_1/hello_world/main
+/rust-learning/Chapter_3/Variables/src/bin/coins
