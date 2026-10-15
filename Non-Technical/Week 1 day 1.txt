@@ -1,0 +1,41 @@
+Week 1 day 1 :
+
+1. Revised PR Title 
+
+Fix intermittent login failures and add credential validation 
+
+2. Revised PR Description 
+
+This PR fixes an issue that sometimes prevents users from logging in. It also adds email and password validation, updates authentication code, and improves error handling. 
+
+Testing: The developer reports testing multiple cases but does not specify the scenarios or results. 
+
+Review focus: Check the email and password validation rules and login error handling. 
+
+3. Before → After → Why 
+
+Change 1 
+
+Before: “Login changes” 
+
+After: “Fix intermittent login failures and add credential validation” 
+
+Why: Makes the title specific so reviewers can quickly identify the problem and key change. 
+
+Change 2 
+
+Before: “Some changes were made in the login functionality and it is working properly now. There was an issue where sometimes users were not able to login and this was fixed.” 
+
+After: “This PR fixes an issue that sometimes prevented users from logging in.” 
+
+Why: Uses active voice, removes repetition, and states the main point first. I also removed “This should work fine now” because it adds reassurance without test evidence. 
+
+Change 3 
+
+Before: “Please review the changes.” 
+
+After: “Check the email and password validation rules and login error handling.” 
+
+Why: Replaces a vague request with specific instructions that address the reviewer’s needs. 
+
+ 

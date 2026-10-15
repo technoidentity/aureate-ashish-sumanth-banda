@@ -1,0 +1,71 @@
+Week 2 day 3
+
+Art of explanation: 
+
+Art of Explanation 
+
+Step 1: Choose your topic 
+
+My topic: Debugging 
+
+Step 2: WHAT → WHY → SO WHAT 
+
+WHAT? 
+
+Today I learned about debugging, which means finding and fixing problems in software. 
+
+WHY? 
+
+Debugging helps us understand why a problem happened so we can fix its cause. 
+
+SO WHAT? 
+
+For example, if customers cannot log in, debugging helps us find the cause and restore access so they can use the service again. 
+
+Step 3: My 30-second explanation 
+
+Debugging means finding and fixing problems in software. It involves observing what goes wrong and testing possible causes to find the right fix. For example, if customers cannot log in, debugging helps us find the cause and restore access so they can use the service again. 
+
+STEP 4 — RECORD YOURSELF  
+
+☐ I can explain it using WHAT → WHY → SO WHAT 
+
+STEP 5 — LISTEN & SELF-CHECK  
+
+Did i get to the point quickly - no 
+
+Did I clearly explain what I was talking about? - yes 
+
+Did I avoid unnecessary technical details? -yes 
+
+AUDIENCE 
+
+☐ Could a non-technical person understand me? - yes 
+
+☐ Did I use language that the listener would understand? - yes 
+
+☐ Did I explain rather than simply use technical terminology? - yes 
+
+RELEVANCE 
+
+☐ Did I explain why it matters? - yes 
+
+☐ Did I make the SO WHAT clear? - yes 
+
+☐ Did I connect it to a real workplace situation? - yes 
+
+DELIVERY 
+
+☐ Was I able to explain it within 30 seconds? - yes 
+
+☐ Did I sound confident and organised? - yes 
+
+☐ Did I avoid unnecessary repetition or fillers? - yes 
+
+One takeaway 
+
+When I explain something, I need to remember to understand my audience, get to the point quickly, and use simple language to explain why it matters. 
+
+ 
+
+ 

@@ -1,0 +1,63 @@
+Week 2 day 2
+
+Find the Answer: The Delayed Release 
+
+Question 1: Find the answer 
+
+My main message is: 
+
+The release may need to move from Friday to Monday because access to the required test environment is still pending. 
+
+Question 2: What has changed? 
+
+Testing identified 18 defects. Of these, 14 have been fixed and retested, and four remain open. 
+
+Question 3: What is the problem? 
+
+Access to the latest version of the client’s order-management test environment is still pending. This blocks work on two of the remaining defects and puts the Friday release at risk. 
+
+Question 4: What is the impact? 
+
+If access is not provided in time, the release may move from Friday to Monday, delaying the availability of the order-tracking feature. 
+
+Question 5: What do you need? 
+
+The team needs access to the latest version of the relevant test environment to resolve and test the two blocked defects. We also need the client to confirm when access will be available. 
+
+Question 6: What happens next? 
+
+I will follow up with the client now to request access and confirm when it will be available. Meanwhile, the team will continue working on the other two defects, which are expected to close by Thursday. I will update my manager in one hour, even if access is still pending. 
+
+Question 7: What information can you leave out? 
+
+I would leave the following details out of the first-line update: 
+
+    The number of defects already fixed and retested. 
+
+    The background about development work completed over the past two weeks. 
+
+    The fact that internal testing started on Tuesday. 
+
+The key challenge: My 20-second update 
+
+Friday’s release may move to Monday because missing environment access blocks two defects. The other two are expected to close Thursday. I’ll request access from the client now and update you in one hour. 
+
+Self-check 
+
+    Yes, I started with the answer. 
+
+    Yes, I separated the main message from the supporting details. 
+
+    Yes, I clearly identified the blocker. 
+
+    Yes, I explained the impact. 
+
+    Yes, I made the required action clear. 
+
+    Yes, A busy person could understand my update in 20–30 seconds. 
+
+One final question: Which statement best describes my approach? 
+
+I started with the answer. 
+
+ 

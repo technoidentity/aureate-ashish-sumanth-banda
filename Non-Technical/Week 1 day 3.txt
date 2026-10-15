@@ -1,0 +1,45 @@
+Week 1 day 3
+
+PR Title: Allow registration without a phone number 
+
+Problem / Context 
+
+Users received an error when submitting the registration form without a phone number. Backend validation treated the phone number as mandatory, although the field should be optional. 
+
+What Changed 
+
+Updated UserValidator and RegistrationService to make the following changes: 
+
+    Remove mandatory phone number validation. 
+
+    Retain the 10-digit rule when a phone number is provided. 
+
+    Return HTTP 400 instead of HTTP 500 for invalid input in the affected scenario. 
+
+    Update the validation message. 
+
+Testing 
+
+Testing covered the following scenarios: 
+
+    Registration without a phone number 
+
+    Registration with a valid 10-digit phone number 
+
+    Registration with an invalid phone number 
+
+    The existing registration flow 
+
+Impact / Reviewer Notes 
+
+No database changes are included. Reviewers should confirm that the changes preserve existing email and password validation. 
+
+Reflection 
+
+I made the following writing decisions: 
+
+    Separate the problem from the changes. The problem section explains why registration failed. The change list explains how the implementation addresses that failure, helping reviewers connect the issue to the fix. 
+
+    Present the test scenarios as a bulleted list. Listing each scenario separately helps reviewers quickly check coverage for missing, valid, and invalid phone numbers, along with the existing registration flow. 
+
+ 

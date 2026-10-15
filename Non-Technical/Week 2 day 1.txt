@@ -1,0 +1,29 @@
+Week 2 day 1 
+
+The One-Question Challenge 
+
+1. My ONE question 
+
+I recommend using the documented 10-minute expiry. Figma shows 15 minutes, while the backend is 12 minutes. Can I proceed with implementing a consistent 10-minute timeout for unpaid bookings today, pending client confirmation tomorrow? 
+
+2. Why I chose this question 
+
+The immediate decision is what timeout to implement today. My question proposes 10 minutes because it matches both the written requirement and the manager’s instruction, while making the conflicting design and backend behavior clear. 
+
+Asking why the timings differ could provide background but would not necessarily establish which timeout to implement. My question gives the manager a specific proposal to approve or correct it. It allows development to move forward while acknowledging that client confirmation is still pending. 
+
+3. What I would do while waiting for the answer 
+
+I would continue with the following preparatory work: 
+
+    Briefly review the requirement of history, design comments, and relevant code changes for an explanation of the conflicting timings. 
+
+    Identify where the application controls the countdown and backend cancellation. 
+
+    Prepare the implementation so the timeout can be adjusted easily once confirmed. 
+
+    Draft tests for unpaid bookings expiring at the selected timeout and paid bookings remaining active. 
+
+I would document the discrepancy and keep 10 minutes labelled as a proposal until the manager responds. 
+
+ 

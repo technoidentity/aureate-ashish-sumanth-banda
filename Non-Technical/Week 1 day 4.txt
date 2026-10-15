@@ -1,0 +1,27 @@
+Week 1 day 4
+
+Day 4 Technical Writing: Revising the Day 2 PR 
+
+Step 1: Identify the audience and summarize the PR 
+
+The audience is a developer reviewing this change without prior knowledge of the issue. The reviewer needs to understand the failure, implementation changes, expected behavior, and test evidence. 
+
+This PR addresses response and validation issues in the User API. It updates service and controller logic, adds null checks, and revises error messages. The description does not specify the failure conditions, test results, or impact on existing functionality. 
+
+Step 2: Ask reviewer questions 
+
+    Which endpoints and inputs triggered the response and validation failures, and what behavior did you expect? 
+
+    What logic changed in the service and controller files, which values now have null checks, and how did the error messages change? 
+
+    Which tests did you run, what were the results, and did they cover existing functionality? 
+
+Step 3: Revised PR after reflection 
+
+PR Title: Address User API response and validation issues 
+
+PR Description: 
+
+This PR updates User API service and controller logic, adds null checks, and revises error messages. Failure conditions, test results, and the impact on existing functionality are not documented. 
+
+ 

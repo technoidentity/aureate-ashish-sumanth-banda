@@ -1,0 +1,87 @@
+Week 1 day 2
+
+Non-Technical Day 2: Clear and Short Sentences 
+
+Step 1: Identify the problems 
+
+Original wording 
+	
+
+What is unclear and why it affects the review 
+
+“This PR contains multiple changes which were required because there were some issues in the user API.” 
+	
+
+The sentence is wordy but does not identify the problem. Reviewers need to know which API behavior required a fix. 
+
+“The response was not coming properly in some cases and the validation was also not working as expected.” 
+	
+
+Does not identify the affected endpoints, inputs, responses, or validation rules. Reviewers cannot compare the actual behavior with the expected behavior. 
+
+“This has now been handled.” 
+	
+
+“This” could refer to the response issue, the validation issue, or both. The sentence does not explain the fix. 
+
+“Changes have been made in the service and controller files and some null checks were added.” 
+	
+
+Identifies general code locations but does not explain the logic changes or which values require null checks. Reviewers cannot assess how these changes address the problem. 
+
+“The error messages were also updated so that it is better.” 
+	
+
+“Better” is subjective, and “it” is ambiguous. Reviewers need the old and new messages to assess the improvement. 
+
+“Testing was done and everything looks fine.” 
+	
+
+Provides no test scenarios or results. Reviewers cannot verify the fix from this statement. 
+
+“There should not be any issue with the existing functionality.” 
+	
+
+Claims compatibility without supporting evidence. Reviewers need regression test results to assess whether existing functionality still works. 
+
+Step 2: Ask reviewer questions 
+
+    Which endpoints and inputs triggered the response and validation problems, and what behavior did you expect? 
+
+    What logic changed in the service and controller files, which values now have null checks, and how did the error messages change? 
+
+    Which tests did you run, what were the results, and did they cover existing functionality? 
+
+Step 3: Improve the PR 
+
+PR Title: Fix User API response and validation issues 
+
+PR Description 
+
+Problem 
+
+The User API returned incorrect responses and did not apply validation correctly in some cases. The affected endpoints and triggering inputs need clarification. 
+
+Changes 
+
+    Update service and controller code. 
+
+    Add null checks. 
+
+    Revise error messages. 
+
+The author needs to explain the specific logic changes, identify the values checked for null, and provide the revised error messages. 
+
+Expected behavior 
+
+The API should return the intended responses and enforce the relevant validation rules. The author needs to specify the expected responses and outcomes for valid, invalid, and null inputs. 
+
+Testing 
+
+The author reports testing but does not provide test scenarios or results. This evidence is needed to verify the fix. 
+
+Impact on existing functionality 
+
+The description does not establish whether existing functionality remains unaffected. The author needs to provide regression test results and identify any changes to responses or accepted inputs that could affect existing clients. 
+
+ 
