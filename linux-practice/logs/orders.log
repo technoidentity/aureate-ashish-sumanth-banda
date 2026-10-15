@@ -1,0 +1,24 @@
+2026-09-26 08:04:12 INFO order=1001 user=alice action=created
+2026-09-26 08:12:30 INFO order=1002 user=bob action=created
+2026-09-26 08:18:05 WARN order=1002 user=bob message="Payment response slow"
+2026-09-26 08:42:19 ERROR order=1003 user=dan message="Payment declined"
+2026-09-26 09:02:10 INFO order=1004 user=alice action=created
+2026-09-26 09:08:44 ERROR order=1004 user=alice message="Payment timeout"
+2026-09-26 09:14:03 INFO order=1005 user=bob action=created
+2026-09-26 09:21:16 ERROR order=1005 user=bob message="Inventory unavailable"
+2026-09-26 09:29:51 INFO order=1006 user=carol action=created
+2026-09-26 09:33:08 ERROR order=1006 user=carol message="Address validation failed"
+2026-09-26 09:40:27 INFO order=1004 user=alice message="Retry succeeded after ERROR response"
+2026-09-26 09:55:42 WARN order=1007 user=dan message="Stock running low"
+2026-09-26 10:01:09 INFO order=1008 user=bob action=created
+2026-09-26 10:07:23 ERROR order=1009 user=alice message="Payment declined"
+2026-09-26 10:16:37 INFO order=1010 user=carol action=created
+2026-09-26 10:24:11 WARN order=1011 user=dan message="Payment response slow"
+2026-09-26 10:31:56 ERROR order=1008 user=bob message="Payment timeout"
+2026-09-26 10:39:04 INFO order=1012 user=alice action=created
+2026-09-26 10:46:28 ERROR order=1010 user=carol message="Address validation failed"
+2026-09-26 10:58:33 INFO order=1013 user=dan action=created
+2026-09-26 11:03:17 INFO order=1014 user=carol action=created
+2026-09-26 11:19:46 ERROR order=1012 user=alice message="Dispatch failed"
+2026-09-26 11:35:02 INFO order=1015 user=bob message="Customer mentioned ERROR in feedback"
+2026-09-26 11:52:40 INFO order=1016 user=dan action=created

@@ -1,0 +1,1 @@
+- Practised the `cut` command on LabEx for 20 minutes.
