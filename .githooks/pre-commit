@@ -1,0 +1,7 @@
+set -euo pipefail
+
+repo_root="$(git rev-parse --show-toplevel)"
+
+echo "Running tests before committing.."
+
+exec bash "$repo_root/scripts/test-p5.sh"
