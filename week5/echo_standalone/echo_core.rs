@@ -19,7 +19,7 @@ mod tests{
             String::from("hello"),
             String::from("Rust"),
         ];
-        assert_eq!(echo_text(&words), "hello Rust\n");    }
+        assert_eq!(echo_text(&words), "hello Rust\n");   }
     #[test]
     fn preserves_spaces_inside_an_argument(){
         let words = vec![String::from("hello rust")];
