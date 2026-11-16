@@ -12,6 +12,7 @@ fn show(value: &impl Debug){
 fn make_number()-> impl Debug{
     25
 }
-fn main(){
-    compare(&10)
+fn main() {
+    compare(&10, &20);
+    show(&make_number());
 }

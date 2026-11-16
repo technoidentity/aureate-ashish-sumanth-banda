@@ -1,2 +1,4 @@
-let greet = |name| println!("Hello, {name}");
-greet("Ashish");
+fn main() {
+    let greet = |name: &str| println!("Hello, {name}");
+    greet("Ashish");
+}
